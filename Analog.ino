@@ -10,5 +10,5 @@ void loop()
 {
   analog_value = analogRead(A_IN);
   Serial.print("The Analog Value is:");
-  Serial.println(A_IN);
+  Serial.println(analog_value);
 }
