@@ -14,7 +14,7 @@ void loop() {
   
   if(swtstate==HIGH)
   {
-    ledstate != ledstate;
+    ledstate =! ledstate;
     delay(500);
   }
  
